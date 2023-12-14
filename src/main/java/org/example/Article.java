@@ -1,27 +1,18 @@
 package org.example;
 
+import lombok.Getter;
+
+@Getter
 public class Article {
 
     private int id;
     private String content;
     private String title;
 
-    Article(int id, String content, String title){
+    public Article(int id, String content, String title){
             this.id = id;
             this.content = content;
             this.title = title;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public String getContent() {
-        return content;
-    }
-
-    public String getTitle() {
-        return title;
     }
 
     public void setId(int id) {
