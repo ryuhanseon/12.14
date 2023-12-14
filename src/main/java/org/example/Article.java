@@ -1,15 +1,18 @@
+package org.example;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
+
 
 @Getter
 @Setter
 @AllArgsConstructor
 public class Article {
-    private int id;
-    private String title;
-    private String content;
-}
 
+    int id;
+    String title;
+    String content;
+}
 
 
